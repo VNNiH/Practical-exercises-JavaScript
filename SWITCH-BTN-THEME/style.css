@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#switchBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  cursor: pointer;
+  height: 15vh;
+  border-radius: 50px;
+  box-shadow: 2px 0px 10px #0c3285;
+  font-family: 'Righteous', cursive;
+  font-size: 35px;
+}
+@media (max-width: 630px) {
+  body {
+    padding: 20px;
+  }
+
+  #switchBtn {
+    width: 70%;
+    font-size: 25px;
+  }
+}
+@media (max-width: 260px) {
+  body {
+    padding: 10px;
+  }
+
+  #switchBtn {
+    width: 80%;
+    font-size: 20px;
+  }
+}
